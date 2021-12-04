@@ -1,0 +1,1 @@
+The Output. The generated `*.png` files will be found here.
