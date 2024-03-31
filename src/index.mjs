@@ -1,8 +1,7 @@
 import canvas from 'canvas';
 import { mergeDefaultConfig, modes } from './conf/config.mjs';
 import GpxParser from './gpx/gpxParser.mjs';
-import { loadJSON } from './io/FileUtils.mjs';
-import { getTimestampFilename } from './io/fileUtils.mjs';
+import { loadJSON, getTimestampFilename } from './io/fileUtils.mjs';
 import { writePNG } from './io/fileWriter.mjs';
 import LineStrategy from './paint/lineStrategy.mjs';
 import MetaPixelStrategy from './paint/metaPixelStrategy.mjs';
